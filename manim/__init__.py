@@ -3,7 +3,8 @@ from __future__ import annotations
 
 from importlib.metadata import version
 
-__version__ = version(__name__)
+# __version__ = version(__name__)
+__version__ = "custom"
 
 
 # isort: off
@@ -57,8 +58,8 @@ from .mobject.graphing.scale import *
 from .mobject.logo import *
 from .mobject.matrix import *
 from .mobject.mobject import *
-from .mobject.opengl.dot_cloud import *
-from .mobject.opengl.opengl_point_cloud_mobject import *
+# from .mobject.opengl.dot_cloud import *
+# from .mobject.opengl.opengl_point_cloud_mobject import *
 from .mobject.svg.brace import *
 from .mobject.svg.svg_mobject import *
 from .mobject.table import *
@@ -74,6 +75,7 @@ from .mobject.types.point_cloud_mobject import *
 from .mobject.types.vectorized_mobject import *
 from .mobject.value_tracker import *
 from .mobject.vector_field import *
+from .opengl import *
 from .renderer.cairo_renderer import *
 from .scene.moving_camera_scene import *
 from .scene.scene import *
